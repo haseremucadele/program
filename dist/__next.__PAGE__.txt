@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[24624,["/_next/static/chunks/5b08fa5862458c0a.js"],""]
+3:I[55043,["/_next/static/chunks/d09eb600efcd0699.js","/_next/static/chunks/1a935bd9676b9d04.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"nxBRbw25BzqWL8iQ2177A","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white","children":["$","main",null,{"className":"flex flex-col items-center gap-8 text-center px-4","children":[["$","h1",null,{"className":"text-5xl font-extrabold tracking-tight sm:text-7xl drop-shadow-lg","children":"Haşere Mücadele"}],["$","p",null,{"className":"text-lg sm:text-2xl max-w-2xl text-indigo-100 font-medium","children":"Modern takip ve yönetim sistemi."}],["$","div",null,{"className":"flex gap-4 mt-8","children":["$","$L2",null,{"href":"/auth/login","className":"px-8 py-4 bg-white text-indigo-600 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1","children":"Giriş Yap"}]}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/5b08fa5862458c0a.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

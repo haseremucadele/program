@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Dark mode removed to ensure consistent light theme */
+:root {
+  --background: #f9fafb;
+  /* Light gray background for contrast */
+  --foreground: #111827;
+  /* Gray-900 for readability */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media print {
+  /* Hide specific structural elements */
+  aside,
+  header,
+  .no-print,
+  button:not(.print-only),
+  input[type="text"],
+  .lucide,
+  .flex.items-center.justify-between,
+  /* Header sections */
+  .fixed.inset-0
+
+  /* Modals */
+    {
+    display: none !important;
+  }
+
+  /* Reset container styles for full width */
+  body,
+  main,
+  .overflow-hidden,
+  .overflow-y-auto,
+  .max-w-6xl,
+  .p-4,
+  .md\:p-6,
+  .bg-gray-50,
+  .border,
+  .shadow-sm {
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    max-width: none !important;
+    width: 100% !important;
+    height: auto !important;
+    border: none !important;
+    box-shadow: none !important;
+    box-shadow: none !important;
+    position: static !important;
+  }
+
+  /* Preserve Total Amount Panels - High Specificity to override reset helpers */
+  div.total-panel,
+  .total-panel {
+    border: 1px solid #ddd !important;
+    margin-top: 1rem !important;
+    padding: 1rem !important;
+    display: flex !important;
+    width: 100% !important;
+    background-color: white !important;
+    box-shadow: none !important;
+  }
+
+  /* Ensure table is visible and formatted */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd !important;
+    padding: 8px !important;
+    color: black !important;
+  }
+
+  /* Hide the actions column (last column) */
+  th:last-child,
+  td:last-child {
+    display: none !important;
+  }
+
+  /* Add a print header - Generic or per-page via data attributes if needed, for now just System Name */
+
+}
+
+@media print and (orientation: landscape) {
+  /* Optional landscape adjustments */
+}
