@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[791,["./_next/static/chunks/d09eb600efcd0699.js","./_next/static/chunks/1a935bd9676b9d04.js"],"ClientSegmentRoot"]
-3:I[18429,["./_next/static/chunks/18b27364d84141d7.js","./_next/static/chunks/6cc28a63c3105431.js"],"default"]
-4:I[37710,["./_next/static/chunks/d09eb600efcd0699.js","./_next/static/chunks/1a935bd9676b9d04.js"],"default"]
-5:I[35426,["./_next/static/chunks/d09eb600efcd0699.js","./_next/static/chunks/1a935bd9676b9d04.js"],"default"]
-0:{"buildId":"3PMQrp1ua6h2dpYAXhDop","rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"./_next/static/chunks/18b27364d84141d7.js","async":true}],["$","script","script-1",{"src":"./_next/static/chunks/6cc28a63c3105431.js","async":true}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@6"]}}]]}],"loading":null,"isPartial":false}
+2:I[791,["/program/_next/static/chunks/d09eb600efcd0699.js","/program/_next/static/chunks/1a935bd9676b9d04.js"],"ClientSegmentRoot"]
+3:I[18429,["/program/_next/static/chunks/18b27364d84141d7.js","/program/_next/static/chunks/6cc28a63c3105431.js"],"default"]
+4:I[37710,["/program/_next/static/chunks/d09eb600efcd0699.js","/program/_next/static/chunks/1a935bd9676b9d04.js"],"default"]
+5:I[35426,["/program/_next/static/chunks/d09eb600efcd0699.js","/program/_next/static/chunks/1a935bd9676b9d04.js"],"default"]
+0:{"buildId":"QJ4OrA8hbc457A-R-TnHw","rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/program/_next/static/chunks/18b27364d84141d7.js","async":true}],["$","script","script-1",{"src":"/program/_next/static/chunks/6cc28a63c3105431.js","async":true}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@6"]}}]]}],"loading":null,"isPartial":false}
 6:"$0:rsc:props:children:1:props:serverProvidedParams:params"
